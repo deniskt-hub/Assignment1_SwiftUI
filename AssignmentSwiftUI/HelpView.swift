@@ -27,7 +27,7 @@ struct HelpView: View {
       }
       .navigationBarHidden(false)
       .navigationBarTitle("Help")
-    }
+    }.navigationViewStyle(StackNavigationViewStyle()).padding()
   }
   
 }
